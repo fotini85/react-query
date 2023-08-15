@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Steps
 
 #### Server
@@ -247,3 +248,8 @@ const { mutate: createTask, isLoading } = useMutation({
 
 - check the docs and test endpoint in Thunder Client
 - setup the functionality
+=======
+# react-query
+Practice-on-react query
+This is a project practice react query
+>>>>>>> 661a8c22b90a6261612ca2e362c637c83b2a2741
