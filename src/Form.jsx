@@ -11,7 +11,7 @@ const Form = () => {
  
   const {mutate:createTask,isLoading} = useMutation({
     mutationFn: (taskTitle)=>customFetch.post('/',{title:taskTitle}),
-    onSucces: () => {
+    onSuccess: () => {
 
       
      queryClient.invalidateQueries({queryKey: ['tasks']}),
